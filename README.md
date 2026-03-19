@@ -2,116 +2,108 @@
 
 ### *You Are Not The User*
 
-> "You are not using this website. It is observing you."
+> "This system was not built for you."
 
 ---
 
-## 🧠 About The Project
+## 🧠 // SYSTEM NOTE
 
-**Broken Reality** is not a typical website.
+This is not a project.
 
-It is an **interactive psychological experience** designed to blur the line between user and system.
+This is a **session**.
 
-At first, everything feels normal.
-Then something feels… off.
-Then it starts watching.
+If you are here, it means:
 
----
-
-## 🎬 Experience
-
-This project simulates:
-
-* ⚡ Glitching interface
-* 🎧 Ambient and disturbing sound design
-* 👁️ Fake system awareness
-* 🧠 Behavioral interaction (your actions affect the system)
-* 🔁 Looping reality (are you stuck?)
-
-You don’t just click.
-You participate.
+* the system detected you
+* the system allowed you
+* or… the system needed you
 
 ---
 
-## 💻 Tech Stack
+## 🔗 // ENTER
 
-* HTML
-* CSS (Cinematic effects, glitch animations)
-* JavaScript (Interaction logic, behavioral triggers)
+> Proceed carefully.
 
----
-
-## ⚠️ Warning
-
-This experience may feel:
-
-* Uncomfortable
-* Disturbing
-* Too aware of your presence
-
-That is intentional.
+👉🏽 [https://agusadhitama.github.io/broken-reality/](https://agusadhitama.github.io/broken-reality/)
 
 ---
 
-## 🧪 How To Run
+## 🎬 // WHAT YOU WILL EXPERIENCE
+
+* ⚡ Visual instability
+* 🎧 Unpredictable audio interference
+* 👁️ Simulated awareness
+* 🧠 Behavioral observation
+* 🔁 Recurring sequence anomalies
+
+You may feel in control.
+
+That is part of the system.
+
+---
+
+## ⚠️ // WARNING
+
+This environment may:
+
+* respond to your actions
+* react to your hesitation
+* acknowledge your presence
+
+Do not assume you are alone.
+
+---
+
+## 💻 // EXECUTION
 
 ```bash
 git clone https://github.com/agusadhitama/broken-reality.git
 cd broken-reality
 ```
 
-Then open:
+Then initiate:
 
 ```bash
 index.html
 ```
 
-> For best experience, use headphones 🎧 and a dark room.
+> Recommended: headphones, low light, full focus.
 
 ---
 
-## 🧩 Concept
+## 🧩 // THEORY
 
-> What if a website could observe you?
+> The user believes they are exploring the system.
 
-> What if your actions were being tracked—not technically, but psychologically?
+> The system observes the user exploring.
 
-Broken Reality explores the illusion of control.
-
----
-
-## 👁️ Features
-
-* Glitch text & visual distortion
-* Screen flicker & flash effects
-* Fake console logs
-* Random whispers & sound triggers
-* User interaction detection (idle vs movement)
-* Loop-based ending system
+> At some point, those roles may invert.
 
 ---
 
-## 🧠 Inspiration
+## 👁️ // FEATURES
 
-* Psychological horror experiences
-* Experimental web design
-* Interactive storytelling
-
----
-
-## 👤 Author
-
-**Agus Satria Adhitama**
+* Distorted text rendering
+* Screen flicker / flash anomalies
+* Console simulation
+* Randomized whisper triggers
+* Motion & inactivity detection
+* Recursive ending loop
 
 ---
 
-## 💬 Final Message
+## 👤 // AUTHOR
 
-> "If you reached the end… did you really leave?"
+Agus Satria Adhitama
 
 ---
 
-⭐ If you find this project interesting, feel free to explore it again.
-But remember…
+## 💬 // FINAL LOG
 
-**It might remember you too.**
+> "If you leave… the session ends."
+
+> "If you return… it never did."
+
+---
+
+**[ SYSTEM STATUS: OBSERVING ]**
