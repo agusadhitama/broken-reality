@@ -1,0 +1,176 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  background: black;
+  color: #00ff9f;
+  font-family: 'Share Tech Mono', monospace;
+  overflow: hidden;
+  transition: background 0.5s ease;
+}
+
+/* CONTAINER */
+.container {
+  text-align: center;
+  margin-top: 20vh;
+  padding: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+/* TITLE */
+#title {
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  animation: subtleFlicker 3s infinite;
+}
+
+/* STORY TEXT */
+#story {
+  font-size: 18px;
+  min-height: 60px;
+  transition: all 0.3s ease;
+}
+
+/* INPUT */
+input {
+  margin-top: 20px;
+  padding: 10px;
+  width: 220px;
+  background: transparent;
+  border: 1px solid #00ff9f;
+  color: #00ff9f;
+  text-align: center;
+  outline: none;
+}
+
+input::placeholder {
+  color: #00ff9f88;
+}
+
+/* BUTTON */
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #00ff9f;
+  color: #00ff9f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #00ff9f;
+  color: black;
+}
+
+/* FOOTER */
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+/* FAKE CONSOLE */
+#console {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 11px;
+  color: #00ff9f;
+  opacity: 0.6;
+  z-index: 3;
+}
+
+#console p {
+  margin: 2px 0;
+}
+
+/* GLITCH TEXT */
+.glitch {
+  color: red;
+  text-shadow:
+    2px 0 blue,
+    -2px 0 red,
+    0 0 5px white;
+  animation: glitchAnim 0.3s infinite;
+}
+
+/* GLITCH OVERLAY */
+#glitchOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255,255,255,0.03) 0px,
+    rgba(0,0,0,0.08) 2px
+  );
+
+  opacity: 0.15;
+  animation: flicker 0.15s infinite;
+  z-index: 1;
+}
+
+/* SCREEN FLASH */
+.flash {
+  animation: flash 0.2s;
+}
+
+/* SHAKE */
+.shake {
+  animation: shake 0.2s;
+}
+
+/* ANIMATIONS */
+
+/* Flicker layar */
+@keyframes flicker {
+  0% { opacity: 0.1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.1; }
+}
+
+/* Flash putih (shock) */
+@keyframes flash {
+  0% { background: white; }
+  100% { background: black; }
+}
+
+/* Glitch text */
+@keyframes glitchAnim {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 1px); }
+  40% { transform: translate(2px, -1px); }
+  60% { transform: translate(-1px, 2px); }
+  80% { transform: translate(1px, -2px); }
+  100% { transform: translate(0); }
+}
+
+/* Screen shake */
+@keyframes shake {
+  0% { transform: translate(2px, 0); }
+  25% { transform: translate(-2px, 0); }
+  50% { transform: translate(2px, 0); }
+  75% { transform: translate(-2px, 0); }
+  100% { transform: translate(0); }
+}
+
+/* Subtle flicker title */
+@keyframes subtleFlicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}

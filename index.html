@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broken Reality</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font creepy -->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🎧 AUDIO -->
+  <audio id="bgSound" loop>
+    <source src="assets/sound/static.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="glitchSound">
+    <source src="assets/sound/glitch.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="whisperSound">
+    <source src="assets/sound/whisper.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ⚡ GLITCH OVERLAY -->
+  <div id="glitchOverlay"></div>
+
+  <!-- 💻 FAKE CONSOLE -->
+  <div id="console"></div>
+
+  <!-- 🎬 MAIN CONTENT -->
+  <div class="container">
+    <h1 id="title">Broken Reality</h1>
+
+    <p id="story">
+      Halo... jika kamu membaca ini, berarti sistem masih berjalan.
+    </p>
+
+    <input 
+      type="text" 
+      id="nameInput" 
+      placeholder="Masukkan nama..." 
+      autocomplete="off"
+    />
+
+    <br>
+
+    <button id="nextBtn">Lanjut</button>
+  </div>
+
+  <!-- 👁️ HIDDEN MESSAGE (buat easter egg) -->
+  <div id="hiddenMsg" style="display:none;">
+    kamu tidak sendirian
+  </div>
+
+  <!-- 🪦 FOOTER -->
+  <footer>
+    <p>Created by Agus Satria Adhitama</p>
+  </footer>
+
+  <!-- ⚠️ SCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
